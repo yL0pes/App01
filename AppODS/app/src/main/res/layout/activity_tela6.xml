@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B700FF37">
+    android:background="#DC040405">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#33D857"
+        android:background="#DC040405"
         tools:context=".Tela2Activity">
 
         <ImageView
@@ -28,9 +28,10 @@
             android:id="@+id/btnvoltar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FF0101"
-            android:fontFamily="serif"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="arial"
             android:text="Voltar"
+            android:textColor="@color/black"
             android:textAllCaps="true"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -43,8 +44,9 @@
             android:id="@+id/textView3"
             android:layout_width="377dp"
             android:layout_height="121dp"
-            android:fontFamily="serif"
+            android:fontFamily="arial"
             android:text="Os ODS têm como objetivo garantir o fim da discriminação contra mulheres e meninas em todos os lugares até 2030. Dar à mulher direitos iguais aos recursos econômicos, como terra e propriedade, são metas vitais para a realização desse objetivo assim como garantir o acesso universal à saúde sexual e reprodutiva."
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.47"

@@ -439,7 +439,7 @@
         android:autoText="false"
         android:backgroundTint="#FE3A21"
         android:clickable="true"
-        android:fontFamily="serif"
+        android:fontFamily="arial"
         android:text="Ver"
         android:textAllCaps="true"
         android:textSize="11dp"

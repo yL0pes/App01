@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B700FF37">
+    android:background="#DC040405">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#33D857"
+        android:background="#DC040405"
         tools:context=".Tela2Activity">
 
         <ImageView
@@ -22,16 +22,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.102"
-            app:srcCompat="@drawable/ods1" />
+            app:srcCompat="@drawable/ods11" />
 
         <Button
             android:id="@+id/btnvoltar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FF0101"
-            android:fontFamily="serif"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="arial"
             android:text="Voltar"
             android:textAllCaps="true"
+            android:textColor="#000000"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -41,10 +42,11 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="377dp"
-            android:layout_height="71dp"
-            android:fontFamily="serif"
-            android:text="O ODS 1 trata da pobreza, cuja erradicação é entendida pelo Brasil como ponto central para toda a estratégia de desenvolvimento de sustentável. A meta 1.1, e também mais urgente, é a erradicação da pobreza extrema."
+            android:layout_width="376dp"
+            android:layout_height="114dp"
+            android:fontFamily="arial"
+            android:text="ODS 11 tem como objetivo tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis. Até 2030, garantir o acesso de todos à habitação segura, adequada e a preço acessível, e aos serviços básicos e urbanizar as favelas"
+            android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.47"

@@ -22,7 +22,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.102"
-            app:srcCompat="@drawable/ods4" />
+            app:srcCompat="@drawable/ods17" />
 
         <Button
             android:id="@+id/btnvoltar"
@@ -42,10 +42,10 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="378dp"
-            android:layout_height="121dp"
+            android:layout_width="381dp"
+            android:layout_height="124dp"
             android:fontFamily="arial"
-            android:text="Assegurar a educação inclusiva e equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos. Até 2030, garantir que todas as meninas e meninos completem o ensino primário e secundário gratuito, equitativo e de qualidade, que conduza a resultados de aprendizagem relevantes e eficazes..."
+            android:text="A ODS 17 tem como objetivo fortalecer os meios de implementação e revitalizar a parceria global para o desenvolvimento sustentável. Fortalecer a mobilização de recursos internos, inclusive por meio do apoio internacional aos países em desenvolvimento, para melhorar a capacidade nacional para arrecadação de impostos e outras receitas"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
